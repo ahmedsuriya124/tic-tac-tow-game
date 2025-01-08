@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+}
+body{
+    text-align: center;
+    background-color: #C5EBC3;
+    margin-top: 1rem;
+}
+.mainHeading{
+    color: #104F55;
+}
+.box-container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vmin;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 20vmin;
+    width: 20vmin;
+    margin: 0.1rem;
+    background-color: #104F55;
+    color: #C5EBC3;
+    font-size: 3.5rem;
+    border-radius: 0.7rem;
+    border: none;
+}
+.resetBtn{
+    padding: 1.2rem;
+    border-radius: 0.7rem;
+    background-color: #104F55;
+    color: #C5EBC3;
+    border: none;
+    font-size: 1.1rem;
+}
+.startBtn{
+    padding: 1.2rem;
+    border-radius: 0.7rem;
+    background-color: #104F55;
+    color: #C5EBC3;
+    border: none;
+    font-size: 1.1rem;
+}
+.winnerCount{
+    display: flex;
+    justify-content: center;
+
+}
+.winnerCount .countO,.countX{
+    border: 2px solid red;
+    margin: 1rem 2rem;
+    margin-bottom: 0px;
+    background-color: #104F55;
+    font-size: 1.2rem ;
+    color: #C5EBC3;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    border: none;
+}
+main{
+    height: 70vh;
+}
